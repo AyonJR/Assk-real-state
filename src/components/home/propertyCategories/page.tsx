@@ -6,7 +6,7 @@ interface PropertyCategory {
   image: string;
   title: string;
   propertyCount: string;
-  gridClasses: string; // For customizing grid placement
+  gridClasses: string; 
 }
 
 const PropertyCategories = () => {
@@ -15,7 +15,7 @@ const PropertyCategories = () => {
       image: "https://i.ibb.co/N1RJhNr/1.jpg",
       title: "Apartment",
       propertyCount: "5 properties",
-      gridClasses: "col-span-2 row-span-2", // Spanning two rows and columns
+      gridClasses: "col-span-2 row-span-2", 
     },
     {
       image: "https://i.ibb.co/M2Ty8sX/2.jpg",

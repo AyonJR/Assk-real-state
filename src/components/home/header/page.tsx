@@ -41,7 +41,7 @@ const Header = () => {
   ];
 
   return (
-    <div className="bg-slate-950">
+    <div className="bg-[#262626]">
       <div className="h-[50px] mx-auto px-6 container">
         {/* Container for all content */}
         <div className="flex flex-row-reverse justify-between items-center h-full  text-white text-sm">
@@ -68,7 +68,7 @@ const Header = () => {
             {socialIcons.map((item, index) => (
               <div
                 key={index}
-                className={`${item.hoverColor} h-full w-[50px] border border-slate-700 flex justify-center items-center transition-colors duration-500`}
+                className={`${item.hoverColor} h-full w-[50px]  flex justify-center items-center transition-colors duration-500`}
               >
                 <a href={item.link} target="_blank" rel="noopener noreferrer">
                   {item.icon}

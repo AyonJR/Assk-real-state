@@ -11,9 +11,13 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        primaryBg: '#14C9F7',
+        primaryBg: "#14C9F7",
+      },
+      // Add custom clip-path for hexagon shape
+      clipPath: {
+        hexagon: "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)",
       },
     },
   },
-  plugins: [],
+  plugins: [require("flowbite/plugin")], // Add Flowbite as a plugin
 } satisfies Config;
