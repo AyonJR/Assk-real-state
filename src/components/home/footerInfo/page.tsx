@@ -3,11 +3,11 @@ const FooterInfo = () => {
       <div>
         <div className="bg-[#1A1D1F]">
           <div className="h-[50px] mx-auto px-16 container">
-            <div className="flex justify-between items-center h-full">
+            <div className="flex justify-around items-center h-full">
               {/* Left Section */}
               <div>
                 <p className="text-white">
-                  © Copyright 2018 All rights reserved – Design By Yogs Themes
+                  © Copyright 2018 All rights reserved By Assk 
                 </p>
               </div>
               {/* Right Section */}

@@ -1,17 +1,7 @@
-import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
-import { MdAccessTime } from "react-icons/md";
-import { FaExternalLinkAlt } from "react-icons/fa";
 import FooterInfo from "../footerInfo/page";
 import Image from "next/image";
 import { BsCursorFill } from "react-icons/bs";
-import {
-  FaPhoneAlt,
-  FaEnvelope,
-  FaFacebookF,
-  FaTwitter,
-  FaLinkedin,
-  FaGoogle,
-} from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaLinkedin, FaGoogle } from "react-icons/fa";
 import { MdChevronRight } from "react-icons/md";
 
 const Footer = () => {
@@ -174,7 +164,7 @@ const Footer = () => {
                     </div>
                   </div>
                   <div>
-                  <h2 className="text-2xl text-primaryBg font-normal">
+                    <h2 className="text-2xl text-primaryBg font-normal">
                       Contact Info
                     </h2>
                     <div className="w-14 h-1 bg-[#272C2F] mt-3"></div>
