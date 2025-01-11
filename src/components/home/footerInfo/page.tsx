@@ -7,7 +7,7 @@ const FooterInfo = () => {
               {/* Left Section */}
               <div>
                 <p className="text-white">
-                  © Copyright 2018 All rights reserved By Assk 
+                  © Copyright 2025 All rights reserved By Assk 
                 </p>
               </div>
               {/* Right Section */}
